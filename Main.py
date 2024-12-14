@@ -19,5 +19,4 @@ def income_calculator(hours_worked, true_tax_percentage, hourly_income):
 hours_worked, hourly_income, true_tax_percentage = user_info()
 net_income, total_income = income_calculator(hours_worked, true_tax_percentage, hourly_income)
 
-print("Your total income is ", total_income, "$")
 print("Your net income is ", net_income, "$")
